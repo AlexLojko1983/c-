@@ -8,11 +8,11 @@ int Max(int arg1,int arg2,int arg3)
     return result;
 }
 
-int[] array = {1,2,21,33,3337,35,46,48,59};
+int[] array = {1,2,21,33,3337,35,46,48,59};                                
 
 array[0] = 12;
 // Console.WriteLine(array[0]);
-
+ 
 int max = Max(
     Max(array[0], array[1], array[2]),
     Max(array[3], array[4], array[5]),
