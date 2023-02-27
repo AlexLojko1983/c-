@@ -100,9 +100,9 @@ int IndexOf (int[] collection, int find)
     return pozition;
 }
 
-int[] array = new int[10];      //Sozdaem array s indexom 9 array[i]=0 (pystoj)
+int[] array = new int[100];      //Sozdaem array s indexom 9 array[i]=0 (pystoj)
 FillArray(array);
 PrintArray(array);
 Console.WriteLine();
-int d = IndexOf(array, 55);
+int d = IndexOf(array, 5);
 Console.WriteLine(d);
