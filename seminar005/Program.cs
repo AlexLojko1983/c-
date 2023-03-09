@@ -225,7 +225,7 @@ int size = Convert.ToInt32(Console.ReadLine());
 int [] arr1 = FillArrayWhithRandomNumber(size);
 System.Console.WriteLine($"[{string.Join(", ", arr1)}]");
 
-int newsize =size/2 + size%2;
+
 int [] arrResult = Array.Empty<int>();      //создали пустой массив
 
 // System.Console.WriteLine($"[{string.Join(", ", arrResult)}]");
